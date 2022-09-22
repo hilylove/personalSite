@@ -23,6 +23,8 @@ h2{
 h3{
   color:#11999E;
   font-family: 'Montserrat',sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 p{
@@ -50,7 +52,7 @@ a:hover{
 .top-container{
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .middle-container{
@@ -90,7 +92,7 @@ a:hover{
 
 .top-cloud{
   position:absolute;
-  right: 300px;
+  right: 1300px;
   top:40px
 }
 
@@ -128,3 +130,64 @@ a:hover{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
+
+.list{
+  text-align: right;
+}
+
+.navbar{
+  list-style: none;
+}
+
+.navbar li{
+  display: inline;
+}
+
+li a{
+  font-size: 20px;
+}
+
+.nav-link:hover{
+color: #40514E;
+}
+
+.project-row{
+  width: 80%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+
+img.card-item{
+  width: 500px;
+  height: 350px;
+}
+
+.card-item{
+  display: inline-block;
+  text-align: left;
+  vertical-align:middle;
+}
+
+.card-item-words {
+  margin-left: 30px;
+  width: 40%;
+}
+
+p.features{
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+}
+
+h3 a{
+  font-size: 1.5rem;
+  color: rgb(230, 92, 46);
+  
+}
+
+h3 a:hover{
+  color:#40514E;
+  
+}
+
+

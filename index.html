@@ -15,7 +15,25 @@
 
   <body>
     <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+      <nav>
+        <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+        <div class="list">
+          <ul class="navbar">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="title-text">
         <h1>I'm Ashley</h1>
         <h2>a <span class="pro">pro</span>grammer.</h2>
@@ -25,14 +43,14 @@
     </div>
 
     <div class="middle-container">
-      <div class="profile">
+      <div id="about" class="profile">
         <img src="images/ashley.png" alt="ashley-profile-img" height="200px" />
         <h2>Hello.</h2>
         <p class="intro">I'm a Full Stack Developer. I ❤️ writing code.</p>
       </div>
-      <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
+      <!-- <hr /> -->
+      <div id="skills" class="skills">
+        <!-- <h2>My Skills.</h2> -->
         <div class="skill-row">
           <img
             class="code-img"
@@ -63,7 +81,80 @@
       </div>
       <hr />
 
-      <div class="contact-me">
+      <div id="project" class="project">
+        <h2>Projects</h2>
+        <p class="intro">Here are the projects that I built</p>
+        <div class="project-row">
+          <div class="card">
+            <h3>
+              Crwn-Clothing: An E-commerce Shop built by React<a
+                href="https://rococo-peony-b07bc5.netlify.app/"
+                >🌐 Demo</a
+              >
+            </h3>
+            <img class="card-item" src="./images/Shop.png" alt="shop-img" />
+            <div class="card-item card-item-words">
+              <p class="features">💫 Features</p>
+              <p>* Navigation between categories and products</p>
+              <p>* Create an account or Sign In with Google</p>
+              <p>* Add items to cart and remove items from cart</p>
+              <p>
+                * Responsive website by updaing data asynchronously using
+                Firebase
+              </p>
+            </div>
+          </div>
+          <br />
+
+          <div class="card">
+            <h3>
+              Natours: An awesome tour booking site built on top of NodeJS.
+              <a class="demo" href="https://natours-ashley.herokuapp.com/"
+                >🌐 Demo</a
+              >
+            </h3>
+            <img
+              class="card-item"
+              src="./images/natours.png"
+              alt="natours-img"
+            />
+            <div class="card-item card-item-words">
+              <p class="features">💫 Features</p>
+              <p>* Authentication and Authorization: Login and logout</p>
+              <p>* Tour: Check tours map, check users' reviews and rating</p>
+              <p>* User profile: Update username, email, and password</p>
+              <p>* Login to the site as user: steve@example.com ("test1234")</p>
+            </div>
+          </div>
+          <br />
+
+          <div class="card">
+            <h3>
+              Tindog: A static website built on Bootstrap<a
+                href="https://hilylove.github.io/TinDog/#pricing"
+                >🌐 Demo</a
+              >
+            </h3>
+            <img class="card-item" src="./images/Tindog.png" alt="tindog-img" />
+            <div class="card-item card-item-words">
+              <p class="features">💫 Features</p>
+              <p>
+                * Website uses Bootstrap framework and its components like
+                Carousel, Card, Buttons, Navbar etc
+              </p>
+              <p>
+                * The website also used HTML5, CSS3 and Google Fonts and Font
+                Awesome
+              </p>
+            </div>
+          </div>
+
+          <br />
+        </div>
+      </div>
+      <hr />
+
+      <div id="contact" class="contact-me">
         <h2>Get In Touch</h2>
         <h3>If you like coding and Doctor Who as much as I do.</h3>
         <p class="contact-message">
