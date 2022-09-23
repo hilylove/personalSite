@@ -152,14 +152,14 @@ color: #40514E;
 }
 
 .project-row{
-  width: 80%;
+  width: 75%;
   margin:100px auto 100px auto;
   text-align: left;
 }
 
 img.card-item{
   width: 500px;
-  height: 350px;
+  height: 300px;
 }
 
 .card-item{
@@ -170,7 +170,7 @@ img.card-item{
 
 .card-item-words {
   margin-left: 30px;
-  width: 40%;
+  width: 45%;
 }
 
 p.features{
